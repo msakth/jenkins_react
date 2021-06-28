@@ -1,4 +1,5 @@
 pipeline {
+    agent { label "vm015859||vm007305||vm015857||vm007337||vm0015850||vm0015855||vm007307" }
     environment {
         CI = 'true' 
     }
