@@ -5,8 +5,9 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                nvm install v12.13.1
-                sh 'node --version'
+                 sh '''
+                  nvm install v12.13.1
+                '''
             }
         }
         stage('Build') {
