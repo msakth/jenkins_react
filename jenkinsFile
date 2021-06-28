@@ -7,6 +7,7 @@ pipeline {
         stage('Test') {
             steps {
                  sh '''
+                 . ~/.bash_profile
                   nvm install v12.13.1
                 '''
             }
